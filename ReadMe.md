@@ -1,10 +1,11 @@
-    # cucumber-junit5-starter
+# cucumber-junit5-starter
 
 This project serves as a starter template for Cucumber with JUnit 5. 
 The purpose of this README is to document the purpose of each dependency included in the `pom.xml`, 
 making it easier to remember and reuse for future projects.
 
 ### Dependency Management
+
 
     <dependencyManagement>
         <dependencies>
@@ -25,12 +26,12 @@ making it easier to remember and reuse for future projects.
         </dependencies>
     </dependencyManagement>
 
-    junit-bom:
+junit-bom:
 
 - Purpose: Ensures all JUnit dependencies use the same version (5.11.0-M2).
 - Reason: Manages and synchronizes versions of all JUnit-related dependencies to prevent version conflicts.
 
-    cucumber-bom:
+cucumber-bom:
 
 - Purpose: Ensures all Cucumber dependencies use the same version (7.18.0).
 - Reason: Manages and synchronizes versions of all Cucumber-related dependencies to prevent version conflicts.
@@ -59,6 +60,7 @@ ensuring compatibility and preventing conflicts.
 In summary, this dependency allows you to write and execute tests using JUnit 5 in your project.
 
 ////
+
 
 ### cucumber-junit-platform-engine
 ### junit-platform-suite
