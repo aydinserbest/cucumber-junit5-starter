@@ -13,3 +13,4 @@ import static io.cucumber.core.options.Constants.PLUGIN_PROPERTY_NAME;
 
 public class RunCucumberTest {
 }
+//TODO: Before running, add .feature file to the project
